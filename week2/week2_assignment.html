@@ -1,0 +1,136 @@
+<!--******************************
+    Submitted By: Rujula Malhotra
+    Registration Number: 22BCE10041
+***********************************-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week-2 Assignment</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        header {
+            background-color: rgb(239, 84, 201);
+            margin: 0;
+            padding: 20px, 0;
+            width: 100%;
+            border-bottom: 2px solid black;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        h1 {
+            font-size: 48px;
+            text-shadow: 2px 2px 5px white;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgb(239, 84, 201);
+            border-radius: 5px;
+            margin: 30px;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: rgb(239, 84, 201);
+            border-top: 2px solid black;
+            padding: 10px;
+            text-align: left;
+            height: 50px
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>WEEK-2 ASSIGNMENT</h1>
+    </header>
+
+    <div class="card">
+        <b>Question 1:</b> Declare a variable <i>age</i> and assign it a value of 25. Then,
+        declare another variable <i>is_Adult</i> that is true if age is 18 or
+        more, otherwise false.
+        <p id="ques1"></p>
+        <script>
+            const age = 25;
+            let is_Adult;
+            if (age >= 18) {
+                is_Adult = true;
+            } else {
+                is_Adult = false;
+            }
+            document.getElementById("ques1").innerHTML = "<b>Answer: </b>" + is_Adult;
+        </script>
+    </div>
+
+    <div class="card">
+        <b>Question 2:</b> Given x = 10 and y = 5, perform the following operations
+        and store the results: Addition, Multiplication, Modulus.
+        <p id="ques2"></p>
+        <script>
+            const x = 10;
+            const y = 5;
+            let res_add = x + y;
+            let res_mul = x * y;
+            let res_mod = x % y;
+            document.getElementById("ques2").innerHTML = "<b>Answer: </b><br><br># Addition: " + res_add +
+                "<br># Multiplication: " + res_mul +
+                "<br># Modulus: " + res_mod;
+        </script>
+    </div>
+
+    <div class="card">
+        <b>Question 3:</b> Write a program that checks if a number n is even or odd and
+        stores the result in a variable.
+        <p id="ques3"></p>
+        <script>
+            let n = 1324;
+            let res = ""; 
+            if(n % 2 == 0){
+                res = "Even";
+            } else{
+                res = "Odd";
+            }
+            document.getElementById("ques3").innerHTML = "<b>Answer: </b>"+ n + " is " + res;
+        </script>
+    </div>
+
+    <div class="card">
+        <b>Question 4:</b> Write a for loop to store numbers from 1 to 5 in an array.
+        <p id="ques4"></p>
+        <script>
+            let numbers = [];
+            for(let i = 1; i <= 5; i++){
+                numbers.push(i);
+            }
+            document.getElementById("ques4").innerHTML = "<b>Answer: </b>" + numbers;
+        </script>
+    </div>
+
+    <div class="card">
+        <b>Question 5:</b> Write a function square that takes a number as input and
+        returns its square.
+        <p id="ques5"></p>
+        <script>
+            let inp = 78;
+            let square = (input) => input*input;
+            document.getElementById("ques5").innerHTML = "<b>Answer: </b>Square of "+ inp + " is " + square(inp);
+        </script>
+    </div>
+
+    <footer>
+        Submitted by: Rujula Malhotra<br>
+        Registration Number: 22BCE10041
+    </footer>
+</body>
+
+</html>

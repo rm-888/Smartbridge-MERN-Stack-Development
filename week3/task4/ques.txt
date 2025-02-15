@@ -1,0 +1,4 @@
+Create a Button component with Tailwind CSS that has a
+blue background, white text, rounded corners, and a hover
+effect that darkens the button. Additionally, add a click event
+that logs "Button clicked!" to the console.

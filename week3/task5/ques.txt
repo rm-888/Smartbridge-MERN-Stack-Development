@@ -1,0 +1,4 @@
+Develop a LoginForm component with email and password
+fields using useState for form handling and Tailwind CSS
+for styling. Display an alert with the entered details when
+submitted.

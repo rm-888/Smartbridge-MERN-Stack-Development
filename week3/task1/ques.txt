@@ -1,0 +1,3 @@
+Write a React component called TextUpdater with an
+input field. Use the useState hook to update and display
+the text as the user types.

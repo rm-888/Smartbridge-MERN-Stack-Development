@@ -1,2 +1,0 @@
-Create a React form with a text input and a submit button. 
-When submitted, log the input value to the console.

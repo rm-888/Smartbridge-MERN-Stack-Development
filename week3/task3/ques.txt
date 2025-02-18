@@ -1,3 +1,0 @@
-Build a UserCard component that takes name and email
-as props and displays them inside a styled card using
-Tailwind CSS.
